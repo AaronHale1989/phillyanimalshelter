@@ -58,15 +58,15 @@ li a:hover{
 	border: 2px solid;
 	grid-column-end: 3;
 	grid-column-start:1;
-   	grid-row-start: ;
-   	grid-row-end: ;
+   	grid-row-start:3;
+   	grid-row-end: 5;
 	}
 
 	.donatebox4 {
 	border: 2px solid;
 	grid-column-start:1;
 	grid-column-end: 3;
-   	grid-row-start: 4;
+   	grid-row-start: 5;
    	grid-row-end: 6;
 	}
 
@@ -76,3 +76,63 @@ li a:hover{
    	grid-row-start: 1;
    	grid-row-end: 4;
 	}
+
+	.wrapper {
+	border: 2px solid red;
+	width: 100px;
+    display:;
+   	text-align:center;
+    padding:20px 50px;
+	}
+
+
+	.donation-box1 {
+	border: 2px solid;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	}
+
+	.donation-box2 {
+	border: 2px solid;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	}
+
+	.donation-box3 {
+	border: 2px solid;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	}
+
+	.donatebox3 ul li {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+	}
+
+	.donation-box4 {
+	border: 2px solid;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	}
+
+	.donation-box5 {
+	border: 2px solid;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	}
+
+
+
