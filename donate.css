@@ -1,12 +1,14 @@
 		
 	/*Navbar*/
-
+body {
+	background-color: #faf5eb;
+}
 	nav {
     margin-top:20px;
     /*border:solid blue;*/
 }
 
-ul {
+.nav-wrapper {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +16,11 @@ ul {
     background-color:black;
 }
 
-li {
+.navbar {
     float:left;
 }
 
-li a {
+.navbar a {
     display:block;
     color:white;
     text-align:center;
@@ -27,13 +29,12 @@ li a {
     font-size: 18px;
 }
 
-li a:hover{
+.navbar a:hover{
     background-color:#0080ff;
 }
 
 
 	.container {
-	border: 2px solid red;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
    	grid-template-rows: repeat(5, 100px);
@@ -41,13 +42,11 @@ li a:hover{
 	}
 
 	.donatebox1 {
-	border: 2px solid;
 	grid-column-start: 1;
 	grid-column-end: 3;
 	}
 
 	.donatebox2 {
-	border: 2px solid;
 	grid-column-end: 3;
 	grid-column-start:1;
    	grid-row-start: 2;
@@ -55,7 +54,6 @@ li a:hover{
 	}
 
 	.donatebox3 {
-	border: 2px solid;
 	grid-column-end: 3;
 	grid-column-start:1;
    	grid-row-start:3;
@@ -63,11 +61,11 @@ li a:hover{
 	}
 
 	.donatebox4 {
-	border: 2px solid;
 	grid-column-start:1;
 	grid-column-end: 3;
    	grid-row-start: 5;
    	grid-row-end: 6;
+   	background-color:  #e6e6e6;
 	}
 
 	.donatebox4 h3 {
@@ -76,19 +74,18 @@ li a:hover{
 	}
 
 	.donatebox5 {
-	border: 2px solid;
 	grid-column-start: 3;
    	grid-row-start: 1;
    	grid-row-end: 4;
 	}
 
 	.wrapper {
-	width: 750px;
+	width: 800px;
    	text-align:center;
     padding:40px 70px;
     position: relative;
-    right: 20px;
-    top: 35px;
+    right: 65px;
+    bottom: 20px;
 	}
 
 
@@ -116,7 +113,7 @@ li a:hover{
 	background-color:#187a97;
 	}
 
-	.donatebox3 ul li {
+	.donatebox3 .wrapper ul li {
 	height: 20px;
 	list-style-type: none;
     margin: 0;
@@ -126,9 +123,11 @@ li a:hover{
     border-radius: 6%;
     color: white;
 	}
+
 	.donatebox3 ul li:hover {
     background-color:#0080ff;
 	}
+
 
 	.donation-box4 {
 	border: 2px solid;
@@ -147,7 +146,6 @@ li a:hover{
 	}
 
 	.donation-box5 {
-	border: 2px solid;
 	margin-top: 20px;
 	width: 100px;
 	height: 50px;
@@ -157,8 +155,18 @@ li a:hover{
 	.pay textarea {
 		position: relative;
 		left: 200px;
-		bottom: 30px;
+		bottom: 40px;
 		font-size: 15px;
+}
 
+	.check input {
+		position: relative;
+		left: 50px;
 	}
 
+	.donatebox5 ul li {
+		font-size: 25px;
+		font-weight: 700;
+		color:  #4d4d4d;
+
+	}
