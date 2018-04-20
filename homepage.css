@@ -36,7 +36,7 @@ li a:hover{
 
 .mission {
 	position:relative;
-	top:70px;
+	top:80px;
 	left:5px;
 	font-family:georgia;
 }
@@ -47,7 +47,7 @@ h1 {
 	/*border:2px solid red;*/
 	/*margin-top:10px;
 	margin-left:375px;*/
-	left:425px;
+	left:415px;
 	top:10px;
 	font-family:georgia;
 }
@@ -61,7 +61,7 @@ h2 {
 
 .logo {
 	left:70px;
-	top:30px;
+	top:40px;
 	position:relative;
 	/*border:2px solid purple;*/
 	width:75px;
@@ -144,13 +144,17 @@ h2 {
 
 .learnmore {
 	position:relative;
-	left:181px;
+	left:179px;
 	color:white;
 	top:10px;
 	font-size:14px;
 	font-family:georgia;
 	text-decoration: none;
 	text-align:center;
+}
+.learnmore:hover {
+	color: red;
+	font-size: 16px;
 }
 
 .info1 {
