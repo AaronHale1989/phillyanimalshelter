@@ -144,13 +144,17 @@ h2 {
 
 .learnmore {
 	position:relative;
-	left:181px;
+	left:179px;
 	color:white;
 	top:10px;
 	font-size:14px;
 	font-family:georgia;
 	text-decoration: none;
 	text-align:center;
+}
+.learnmore:hover {
+	color: red;
+	font-size: 16px;
 }
 
 .info1 {
