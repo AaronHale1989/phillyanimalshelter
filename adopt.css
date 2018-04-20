@@ -44,6 +44,10 @@ h1{
   grid-auto-rows: 150px;
 }
 
+body{
+  background-color: #faf5eb;
+}
+
 .pics{
   border: 2px solid black;
 }
@@ -73,13 +77,23 @@ h1{
   width: 70%;
   border: 3px solid blue;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
-  grid-auto-rows: 150px;
+  grid-auto-rows: 100px;
 }
 
-.per{
-  border: 1px solid;
+/* .per{
+  border: 1px solid green; */
+  /* width: ; */
+  /* float: left; */
+/* } */
+
+.k, .w, .s, .r{
+  border: 2px solid red;
+  /* margin-left: 50px; */
+  letter-spacing: 5px;
+  /* margin-left: 50px; */
+  list-style-type: none;
 }
