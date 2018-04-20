@@ -111,3 +111,43 @@ h2 {
 	background-image:url("images/dogs-in-field.jpg");
 	background-size:100% 100%;
 }
+
+.funds {
+	position:relative;
+	top:200px;
+	left:85px;
+	border:2px solid black;
+	height: 450px;
+	width:450px;
+	background-image:url("images/fundspic.jpg");
+	background-size:100% 100%;
+}
+
+.funds2 {
+	position:relative;
+	top:390px;
+	/*border:2px solid purple;*/
+	width:450px;
+	height:60px;
+	background-color:#51a8ff;
+}
+
+.fundstext {
+	color:white;
+	font-family:georgia;
+	position:relative;
+	left:170px;
+	top:10px;
+	/*border:2px solid red;*/
+	width:100px;
+}
+
+.learnmore {
+	position:relative;
+	left:180px;
+	color:white;
+	top:10px;
+	font-size:14px;
+	font-family:georgia;
+	text-decoration: none;
+}
