@@ -1,0 +1,78 @@
+		
+	/*Navbar*/
+
+	nav {
+    margin-top:20px;
+    border:solid blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a:hover{
+    background-color:#0080ff;
+}
+
+
+	.container {
+	border: 2px solid red;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+   	grid-template-rows: repeat(5, 100px);
+   	display: 0 auto;
+	}
+
+	.donatebox1 {
+	border: 2px solid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	}
+
+	.donatebox2 {
+	border: 2px solid;
+	grid-column-end: 3;
+	grid-column-start:1;
+   	grid-row-start: 2;
+   	grid-row-end: 3;
+	}
+
+	.donatebox3 {
+	border: 2px solid;
+	grid-column-end: 3;
+	grid-column-start:1;
+   	grid-row-start: ;
+   	grid-row-end: ;
+	}
+
+	.donatebox4 {
+	border: 2px solid;
+	grid-column-start:1;
+	grid-column-end: 3;
+   	grid-row-start: 4;
+   	grid-row-end: 6;
+	}
+
+	.donatebox5 {
+	border: 2px solid;
+	grid-column-start: 3;
+   	grid-row-start: 1;
+   	grid-row-end: 4;
+	}
