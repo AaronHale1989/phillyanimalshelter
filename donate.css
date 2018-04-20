@@ -3,7 +3,7 @@
 
 	nav {
     margin-top:20px;
-    border:solid blue;
+    /*border:solid blue;*/
 }
 
 ul {
@@ -70,6 +70,11 @@ li a:hover{
    	grid-row-end: 6;
 	}
 
+	.donatebox4 h3 {
+		position: relative;
+		top: 20px;
+	}
+
 	.donatebox5 {
 	border: 2px solid;
 	grid-column-start: 3;
@@ -78,11 +83,12 @@ li a:hover{
 	}
 
 	.wrapper {
-	border: 2px solid red;
-	width: 100px;
-    display:;
+	width: 750px;
    	text-align:center;
-    padding:20px 50px;
+    padding:40px 70px;
+    position: relative;
+    right: 20px;
+    top: 35px;
 	}
 
 
@@ -91,7 +97,7 @@ li a:hover{
 	margin-top: 20px;
 	width: 100px;
 	height: 50px;
-	background-color: blue;
+	background-color:#187a97;
 	}
 
 	.donation-box2 {
@@ -99,7 +105,7 @@ li a:hover{
 	margin-top: 20px;
 	width: 100px;
 	height: 50px;
-	background-color: blue;
+	background-color:#187a97;
 	}
 
 	.donation-box3 {
@@ -107,15 +113,21 @@ li a:hover{
 	margin-top: 20px;
 	width: 100px;
 	height: 50px;
-	background-color: blue;
+	background-color:#187a97;
 	}
 
 	.donatebox3 ul li {
+	height: 20px;
 	list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:20px 20px;;
     overflow: hidden;
-    background-color:none;
+    display: inline-block;
+    border-radius: 6%;
+    color: white;
+	}
+	.donatebox3 ul li:hover {
+    background-color:#0080ff;
 	}
 
 	.donation-box4 {
@@ -123,7 +135,7 @@ li a:hover{
 	margin-top: 20px;
 	width: 100px;
 	height: 50px;
-	background-color: blue;
+	background-color:#187a97;
 	}
 
 	.donation-box5 {
@@ -131,8 +143,22 @@ li a:hover{
 	margin-top: 20px;
 	width: 100px;
 	height: 50px;
-	background-color: blue;
+	background-color:#187a97;
 	}
 
+	.donation-box5 {
+	border: 2px solid;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color:#187a97;
+	}
+	
+	.pay textarea {
+		position: relative;
+		left: 200px;
+		bottom: 30px;
+		font-size: 15px;
 
+	}
 
