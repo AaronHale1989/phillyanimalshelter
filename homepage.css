@@ -126,7 +126,7 @@ h2 {
 .funds2 {
 	position:relative;
 	top:390px;
-	/*border:2px solid purple;*/
+/*	border:2px solid purple;*/
 	width:450px;
 	height:60px;
 	background-color:#51a8ff;
@@ -184,3 +184,69 @@ h2 {
 	position:relative;
 	top:10px;
 }
+
+@media all and (max-width:480px) {
+	.dogpic1 {
+		display:none;
+	}
+	h2 {
+		left:0px;
+	}
+	.logo {
+		display:none;
+	}
+	.titlewrapper {
+		width:400px;
+		font-size:12px;
+	}
+	h1{
+		position:relative;
+		float:none;
+		width:200px;
+		top:50px;
+		left:85px;
+	}
+	.funds {
+		height:150px;
+		width:150px;
+		float:none;
+		left:0;
+		position:relative;
+	}
+	.funds2 {
+		float:none;
+		border:2px solid black;
+		height:50px;
+		width:150px;
+		position:relative;
+		margin-top:0px;
+		top:150px;
+		right:2px;
+	}
+	.fundstext {
+		float:none;
+		position:relative;
+		left:20px;
+		bottom:0px;
+		top:0px;
+	}
+	.learnmore{
+		float:none;
+		top:0;
+		text-align:none;
+		position:relative;
+		right:200px;
+		left:30px;
+	}
+	nav {
+		width:150px;
+	}
+	body {
+		background-color:#faf5eb;
+	}
+	.wrapper1 {
+		border-top:8px solid black;
+		margin-top:20px;
+	}
+}
+
