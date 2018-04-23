@@ -126,7 +126,7 @@ h2 {
 .funds2 {
 	position:relative;
 	top:390px;
-	/*border:2px solid purple;*/
+	border:2px solid purple;
 	width:450px;
 	height:60px;
 	background-color:#51a8ff;
@@ -183,4 +183,13 @@ h2 {
 	color:white;
 	position:relative;
 	top:10px;
+}
+
+@media all and (max-width:480px) {
+	.dogpic1 {
+		display:none;
+	}
+	h2 {
+		display:none;
+	}
 }
