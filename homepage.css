@@ -215,9 +215,10 @@ h2 {
 	}
 	.funds2 {
 		float:none;
-		height:150px;
+		height:50px;
 		width:150px;
 		position:static;
+		margin-top:50px;
 	}
 	.fundstext {
 		float:none;
