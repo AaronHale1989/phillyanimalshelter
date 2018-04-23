@@ -80,7 +80,7 @@ h2 {
 
 .wrapper1 {
 	background-color:#faf5eb;
-	/*border: 2px solid orange;*/
+	border: 2px solid orange;
 	width:100%;
 	height:900px;
 }
@@ -194,5 +194,39 @@ h2 {
 	}
 	.logo {
 		display:none;
+	}
+	.titlewrapper {
+		width:400px;
+		font-size:12px;
+	}
+	h1{
+		position:relative;
+		float:none;
+		width:200px;
+		top:50px;
+		left:0px;
+	}
+	.funds {
+		height:150px;
+		width:150px;
+		float:none;
+		left:0;
+		position:static;
+	}
+	.funds2 {
+		float:none;
+		height:150px;
+		width:150px;
+		position:static;
+	}
+	.fundstext {
+		float:none;
+		position:static;
+	}
+	.learnmore{
+		float:none;
+		top:0;
+		text-align:none;
+		position:static;
 	}
 }
