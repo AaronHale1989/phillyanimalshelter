@@ -41,6 +41,9 @@ body {
    	display: 0 auto;
 	}
 
+	
+	}
+
 	.donatebox1 {
 	grid-column-start: 1;
 	grid-column-end: 3;
@@ -122,6 +125,12 @@ body {
     display: inline-block;
     border-radius: 6%;
     color: white;
+	}
+
+	@media all and (max-width:800px){
+		.donatebox3 .wrapper ul li {
+			display: block;
+		}
 	}
 
 	.donatebox3 ul li:hover {
